@@ -6,7 +6,8 @@ module.exports = {
   entry: './src/js/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: './js/bundle.js'
+    filename: './js/bundle.js',
+    publicPath: '/web-core/'
   },
   devtool: "source-map",
   module: {
