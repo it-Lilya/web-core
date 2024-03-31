@@ -113,8 +113,8 @@
 .basement__tel {
   font-size: 24px;
   line-height: 32px;
-  font-weight: bold;
   margin-top: 12px;
+  font-family: "TTLakesBold";
 }
 
 .basement__container-lang > ul {
