@@ -9,32 +9,32 @@
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _scss_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/style.scss */ "./src/scss/style.scss");
-/* harmony import */ var _images_divider_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../images/divider.svg */ "./src/images/divider.svg");
-/* harmony import */ var _images_expand_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/expand.svg */ "./src/images/expand.svg");
-/* harmony import */ var _images_gamburger_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../images/gamburger.svg */ "./src/images/gamburger.svg");
-/* harmony import */ var _images_Group_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../images/Group.svg */ "./src/images/Group.svg");
-/* harmony import */ var _images_mail_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../images/mail.svg */ "./src/images/mail.svg");
-/* harmony import */ var _images_phone_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../images/phone.svg */ "./src/images/phone.svg");
-/* harmony import */ var _images_profile_svg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../images/profile.svg */ "./src/images/profile.svg");
-/* harmony import */ var _images_setting_svg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../images/setting.svg */ "./src/images/setting.svg");
-/* harmony import */ var _images_status_svg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../images/status.svg */ "./src/images/status.svg");
-/* harmony import */ var _images_MG_3223_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../images/MG_3223.png */ "./src/images/MG_3223.png");
-/* harmony import */ var _images_close_svg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../images/close.svg */ "./src/images/close.svg");
-/* harmony import */ var _images_Picture_Copy_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../images/Picture Copy.png */ "./src/images/Picture Copy.png");
-/* harmony import */ var _images_search_svg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../images/search.svg */ "./src/images/search.svg");
-/* harmony import */ var _images_tel_svg__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../images/tel.svg */ "./src/images/tel.svg");
-/* harmony import */ var _images_contact_svg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../images/contact.svg */ "./src/images/contact.svg");
-/* harmony import */ var _images_Lenovo_svg__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../images/Lenovo.svg */ "./src/images/Lenovo.svg");
-/* harmony import */ var _images_go_svg__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../images/go.svg */ "./src/images/go.svg");
-/* harmony import */ var _images_Samsung_svg__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../images/Samsung.svg */ "./src/images/Samsung.svg");
-/* harmony import */ var _images_Apple_svg__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../images/Apple.svg */ "./src/images/Apple.svg");
-/* harmony import */ var _images_ViewSonic_svg__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../images/ViewSonic.svg */ "./src/images/ViewSonic.svg");
-/* harmony import */ var _images_Bosch_svg__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../images/Bosch.svg */ "./src/images/Bosch.svg");
-/* harmony import */ var _images_HP_svg__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../images/HP.svg */ "./src/images/HP.svg");
-/* harmony import */ var _images_Acer_svg__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../images/Acer.svg */ "./src/images/Acer.svg");
-/* harmony import */ var _images_Sony_svg__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../images/Sony.svg */ "./src/images/Sony.svg");
-/* harmony import */ var _images_icon_svg__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../images/icon.svg */ "./src/images/icon.svg");
+/* harmony import */ var _src_scss_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../src/scss/style.scss */ "./src/scss/style.scss");
+/* harmony import */ var _src_images_divider_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../src/images/divider.svg */ "./src/images/divider.svg");
+/* harmony import */ var _src_images_expand_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../src/images/expand.svg */ "./src/images/expand.svg");
+/* harmony import */ var _src_images_gamburger_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../src/images/gamburger.svg */ "./src/images/gamburger.svg");
+/* harmony import */ var _src_images_Group_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../src/images/Group.svg */ "./src/images/Group.svg");
+/* harmony import */ var _src_images_mail_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../src/images/mail.svg */ "./src/images/mail.svg");
+/* harmony import */ var _src_images_phone_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../src/images/phone.svg */ "./src/images/phone.svg");
+/* harmony import */ var _src_images_profile_svg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../src/images/profile.svg */ "./src/images/profile.svg");
+/* harmony import */ var _src_images_setting_svg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../../src/images/setting.svg */ "./src/images/setting.svg");
+/* harmony import */ var _src_images_status_svg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../../src/images/status.svg */ "./src/images/status.svg");
+/* harmony import */ var _src_images_MG_3223_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../../src/images/MG_3223.png */ "./src/images/MG_3223.png");
+/* harmony import */ var _src_images_close_svg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../../src/images/close.svg */ "./src/images/close.svg");
+/* harmony import */ var _src_images_Picture_Copy_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../../src/images/Picture Copy.png */ "./src/images/Picture Copy.png");
+/* harmony import */ var _src_images_search_svg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../../src/images/search.svg */ "./src/images/search.svg");
+/* harmony import */ var _src_images_tel_svg__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../../../src/images/tel.svg */ "./src/images/tel.svg");
+/* harmony import */ var _src_images_contact_svg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../../../src/images/contact.svg */ "./src/images/contact.svg");
+/* harmony import */ var _src_images_Lenovo_svg__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../../../src/images/Lenovo.svg */ "./src/images/Lenovo.svg");
+/* harmony import */ var _src_images_go_svg__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../../../src/images/go.svg */ "./src/images/go.svg");
+/* harmony import */ var _src_images_Samsung_svg__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../../../src/images/Samsung.svg */ "./src/images/Samsung.svg");
+/* harmony import */ var _src_images_Apple_svg__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../../../src/images/Apple.svg */ "./src/images/Apple.svg");
+/* harmony import */ var _src_images_ViewSonic_svg__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../../../src/images/ViewSonic.svg */ "./src/images/ViewSonic.svg");
+/* harmony import */ var _src_images_Bosch_svg__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../../../src/images/Bosch.svg */ "./src/images/Bosch.svg");
+/* harmony import */ var _src_images_HP_svg__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../../../src/images/HP.svg */ "./src/images/HP.svg");
+/* harmony import */ var _src_images_Acer_svg__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../../../src/images/Acer.svg */ "./src/images/Acer.svg");
+/* harmony import */ var _src_images_Sony_svg__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../../../src/images/Sony.svg */ "./src/images/Sony.svg");
+/* harmony import */ var _src_images_icon_svg__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../../../src/images/icon.svg */ "./src/images/icon.svg");
 
 
 

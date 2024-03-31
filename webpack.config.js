@@ -52,7 +52,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Webpack 4 Starter',
-      template: 'src/index.html',
+      template: './src/index.html',
       inject: true,
       minify: {
         removeComments: true,
