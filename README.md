@@ -1,1 +1,1 @@
-[GhPages]( https://it-lilya.github.io/web-core/)
+[GhPages](https://it-lilya.github.io/web-core/)
