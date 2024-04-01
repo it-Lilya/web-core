@@ -15,6 +15,7 @@ function opacityNone() {
 
 function openModalConnect(el) {
   el.addEventListener('click', () => {
+    document.querySelector('.modal-call').classList.remove('modal-call__active');
     document.querySelector('.modal-connection').classList.add('modal-connection__active');
     if (document.body.clientWidth <= 1365) {
       modal.classList.remove('open-window');
@@ -23,7 +24,6 @@ function openModalConnect(el) {
     }
     opacityElements();
 
-    //закрытие
     const modalConnect = document.querySelector('.modal-connection');
     document.querySelector('.modal-connection button').addEventListener('click', () => {
       modalConnect.classList.remove('modal-connection__active');
@@ -37,6 +37,7 @@ function openModalConnect(el) {
 
 function openModalCall(el) {
   el.addEventListener('click', () => {
+    document.querySelector('.modal-connection').classList.remove('modal-connection__active');
     document.querySelector('.modal-call').classList.add('modal-call__active');
     if (document.body.clientWidth <= 1365) {
       modal.classList.remove('open-window');
@@ -45,7 +46,6 @@ function openModalCall(el) {
     }
     opacityElements();
 
-    //закрытие
     const modalConnect = document.querySelector('.modal-call');
     document.querySelector('.modal-call button').addEventListener('click', () => {
       modalConnect.classList.remove('modal-call__active');
