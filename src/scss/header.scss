@@ -13,12 +13,6 @@
       margin: 0 auto;
     }
   }
-  // .nav-main_menu {
-  //   display: flex;
-  //   align-items: center;
-
-  //   border: 1px solid green;
-    
     .nav-main_logo-info {
       display: flex;
       align-items: center;
@@ -29,12 +23,7 @@
       display: flex;
       justify-content: space-between;
     }
-
-  // }
 }
-
-
-
 
 @media (max-width: 768px) {
   .nav-main {

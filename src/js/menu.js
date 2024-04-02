@@ -106,7 +106,6 @@ window.addEventListener('resize', () => {
     modal.classList.add('open-window');
     newGorizont = document.body.clientWidth;
     newVertical = document.body.clientHeight;
-    // opacityNone();
   } else {
     newGorizont = document.body.clientWidth;
     newVertical = document.body.clientHeight;

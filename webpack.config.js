@@ -31,14 +31,6 @@ module.exports = {
           'sass-loader',
         ],
       },
-      // {
-      //   test: /\.(eot|ttf|woff|woff2)$/,
-      //   use: [
-      //     {
-      //       loader: 'file-loader?name=./src/fonts/[name].[ext]'
-      //     },
-      //   ]
-      // },
       {
         test: /\.(svg|png|jpg|jpeg|webp)$/,
         use: [
