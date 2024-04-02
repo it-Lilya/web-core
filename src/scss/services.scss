@@ -253,6 +253,9 @@ $colorLightGray: #f8f8f8;
       padding-bottom: 15px;
       transform: translate3d(0px, 0px, 0px) !important;
     }
+    .swiper-pagination {
+      display: none;
+    }
   }
   .swiper__button {
     padding-left: 8px;
@@ -261,11 +264,11 @@ $colorLightGray: #f8f8f8;
     font-size: 16px;
     color: #1b1c21;
     margin-top: 0px;
-    // border: 1px solid red;
 
     img {
       margin-right: 9px;
     }
+
   }
   .open img {
     transform: rotate(180deg);
@@ -372,7 +375,7 @@ $colorLightGray: #f8f8f8;
     padding-bottom: 45px;
 
     .section-services_footer__text {
-      width: 65%;
+      width: 57%;
     }
     button {
       width: 400px;
@@ -426,6 +429,9 @@ $colorLightGray: #f8f8f8;
       overflow: hidden;
       padding-bottom: 15px;
       transform: translate3d(0px, 0px, 0px) !important;
+    }
+    .swiper-pagination {
+      display: none;
     }
     .swiper-slide {
       box-sizing: border-box;
@@ -555,7 +561,7 @@ $colorLightGray: #f8f8f8;
     padding-bottom: 50px;
 
     .section-services_footer__text {
-      width: 60%;
+      width: 40%;
     }
     button {
       width: 400px;
