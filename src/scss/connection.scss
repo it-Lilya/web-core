@@ -12,75 +12,109 @@
   background-color: white;
   top: 0;
   flex-direction: column;
-}
-.modal-connection button {
-  width: 40px;
-  height: 40px;
-  margin-bottom: 32px;
-}
-.modal-call button {
-  width: 40px;
-  height: 40px;
-  margin-bottom: 32px;
-}
-.modal-connection form ,
-.modal-call form {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin-top: 24px;
-  min-height: 150px;
-  overflow: auto;
-  padding-bottom: 50px
-}
-.modal-connection form input,
-.modal-call form input {
-  box-sizing: border-box;
-  margin-bottom: 16px;
-  height: 48px;
-  padding: 12px 15px;
-  border: 1px solid #EAEAEA;
-  border-radius: 5px;
-}
-.modal-connection form input::placeholder,
-.modal-connection form textarea::placeholder,
-.modal-call form input::placeholder {
-  color: #B5B6BC;
-}
-.modal-connection form textarea {
-  padding: 12px 15px;
-  border: 1px solid #EAEAEA;
-  border-radius: 5px;
-  margin-bottom: 16px;
-}
-.modal-connection form p
-.modal-call form p {
-  color: #7E7E82;
-  font-size: 14px;
-}
-.modal-connection form a {
-  text-decoration: none;
-  color: #FF3E79;
-}
-.modal-call form a {
-  text-decoration: none;
-  color: #FF3E79;
-}
-.modal-connection form button,
-.modal-call form button {
-  align-self: flex-end;
-  width: 136px;
-  height: 32px;
   position: relative;
-  margin-right: -60px;
-  padding-left: -20px;
+
+  h1:before {
+    display: block;
+    position: absolute;
+    content: "";
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    width: 4px;
+    height: 40px;
+    background-color: #41F6D7;
+    left: 0;
+  }
+  button {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 32px;
+    position: relative;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 24px;
+    min-height: 150px;
+    overflow: auto;
+    padding-bottom: 50px;
+
+    input {
+      box-sizing: border-box;
+      margin-bottom: 16px;
+      height: 48px;
+      padding: 12px 15px;
+      border: 1px solid #EAEAEA;
+      border-radius: 5px;
+    }
+
+    input::placeholder,
+    textarea::placeholder {
+      color: #B5B6BC;
+    }
+    textarea {
+      padding: 12px 15px;
+      border: 1px solid #EAEAEA;
+      border-radius: 5px;
+      margin-bottom: 16px;
+    }
+    p {
+      color: #7E7E82;
+      font-size: 14px;
+    }
+    a {
+      text-decoration: none;
+      color: #FF3E79;
+    }
+    button {
+      align-self: flex-end;
+      width: 136px;
+      height: 32px;
+      position: relative;
+      margin-right: -60px;
+      padding-left: -20px;
+      background-color: #ff3e79;
+      border: none;
+      border-radius: 50px;
+      color: white;
+      text-transform: uppercase;
+      font-weight: bold;
+      box-sizing: border-box;
+      text-align: start;
+      padding-left: 20px;
+
+    }
+    button::before {
+      position: absolute;
+      content: "";
+      height: 8px;
+      width: 2px;
+      background-color: white;
+      border-radius: 5px;
+      transform: rotate(-45deg);
+      margin-top: 0.5px;
+      right: 20px;
+    }
+    button::after {
+      position: absolute;
+      content: "";
+      height: 8px;
+      width: 2px;
+      background-color: white;
+      border-radius: 5px;
+      transform: rotate(45deg);
+      margin-top: 5.5px;
+      right: 20px;
+    }
+    input:focus, textarea:focus {
+      outline: none;
+      box-shadow: 0px 2px 5px 0px #9fa0a6;
+    }
+  }
 }
-.modal-connection form input:focus, 
-.modal-connection form textarea:focus,
-.modal-call form input:focus {
-  outline: none;
-  box-shadow: 0px 2px 5px 0px #9fa0a6;
-}
+
+
 @media (max-width: 360px) {
   .modal-connection,
   .modal-call {
@@ -88,11 +122,11 @@
     padding-right: 16px;
     padding-top: 24px;
     height: 100%;
-  }
-  .modal-connection button,
-  .modal-call button {
-    width: 40px;
-    height: 40px;
+
+    button {
+      width: 40px;
+      height: 40px;
+    }
   }
 }
 @media (min-width: 361px) {
@@ -108,12 +142,12 @@
   .modal-call {
     min-width: 100vw;
     min-height: 100vh;
-  }
-  .modal-connection form button,
-  .modal-call form button {
-    margin-right: 0;
-    margin-top: 20px;
-    position: static;
+
+    form button {
+      margin-right: 0;
+      margin-top: 20px;
+      position: static;
+    }
   }
 }
 @media (min-width: 769px) {
@@ -129,13 +163,13 @@
     right: 0;
     border-left: 1px solid #D9FFF5;
     box-shadow: 5px 10px 15px 5px rgba(194, 194, 195, 0.850980392);
-  }
-  .modal-connection button,
-  .modal-call button {
-    position: absolute;
-    content: '';
-    left: -60px;
-    top: 20px;
+
+    button {
+      position: absolute;
+      content: '';
+      left: -60px;
+      top: 20px;
+    }
   }
   // .modal-connection form button,
   // .modal-call form button {
