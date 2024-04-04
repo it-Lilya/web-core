@@ -142,6 +142,9 @@
   .modal-call {
     min-width: 100vw;
     min-height: 100vh;
+    position: absolute;
+    content: '';
+    top: 0;
 
     form button {
       margin-right: 0;
