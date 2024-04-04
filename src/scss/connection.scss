@@ -118,8 +118,8 @@
 @media (max-width: 360px) {
   .modal-connection,
   .modal-call {
-    padding-left: 16px;
-    padding-right: 16px;
+    // padding-left: 16px;
+    // padding-right: 16px;
     padding-top: 24px;
     height: 100%;
 
@@ -132,19 +132,23 @@
 @media (min-width: 361px) {
   .modal-connection,
   .modal-call {
-    padding-left: 24px;
-    padding-right: 24px;
+    // padding-left: 16px;
+    // padding-right: 16px;
     padding-top: 24px;
   }
 }
 @media (max-width: 768px) {
   .modal-connection,
   .modal-call {
+    padding-left: 16px;
+    padding-right: 16px;
     min-width: 100vw;
     min-height: 100vh;
     position: absolute;
     content: '';
     top: 0;
+
+    
 
     form button {
       margin-right: 0;
@@ -159,6 +163,8 @@
   }
   .modal-connection,
   .modal-call {
+    padding-left: 30px;
+    padding-right: 30px;
     max-width: 440px;
     min-height: 100%;
     position: absolute;
